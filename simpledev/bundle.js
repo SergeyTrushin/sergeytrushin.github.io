@@ -105,7 +105,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.less */ \"./src/css/style.less\");\n/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_less__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.less */ \"./src/css/style.less\");\n/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_less__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\n\r\nconst ageOnPage = document.querySelector(\"#age\")\r\n\r\n\r\n\r\n//Дата рождения\r\n\r\nlet dob = new Date(1995, 12, 17);\r\n\r\nlet now = new Date(); //Текущя дата\r\nlet today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); //Текущя дата без времени\r\nlet dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate()); //ДР в текущем году\r\n\r\nlet age = today.getFullYear() - dob.getFullYear();\r\n//Если ДР в этом году ещё предстоит, то вычитаем из age один год\r\nif (today < dobnow) {\r\n  age = age-1;\r\n}\r\n\r\nageOnPage.innerHTML = age\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
