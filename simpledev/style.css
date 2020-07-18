@@ -393,7 +393,7 @@ a {
 #header .header__menu .menu__logo {
   width: 135px;
   height: 43px;
-  background: url(img/src/img/header/logo.svg) 0 0 / cover no-repeat;
+  background: url(img/header/logo.svg) 0 0 / cover no-repeat;
 }
 #header .header__menu .menu__nav ul {
   display: flex;
@@ -460,12 +460,12 @@ a {
   z-index: 3;
 }
 #header .block__image {
-  background-image: url(img/src/img/header/bag.png);
+  background-image: url(img/header/bag.png);
 }
 #header .header__content {
   position: relative;
   margin-top: 33px;
-  background-image: url(img/src/img/header/Vector.svg), url(img/src/img/header/Vector2.svg);
+  background-image: url(img/header/Vector.svg), url(img/header/Vector2.svg);
   background-color: #EFF7FF;
   background-repeat: no-repeat;
   background-position: top 0 right 60%,    
@@ -505,7 +505,7 @@ a {
 #header .header__content .content__img {
   flex-basis: 60%;
   height: 600px;
-  background-image: url(img/src/img/header/bag.png), url(img/src/img/header/VUE.svg), url(img/src/img/header/DJANGO.svg), url(img/src/img/header/hand.png), url(img/src/img/header/Elastic.svg), url(img/src/img/header/bg.png);
+  background-image: url(img/header/bag.png), url(img/header/VUE.svg), url(img/header/DJANGO.svg), url(img/header/hand.png), url(img/header/Elastic.svg), url(img/header/bg.png);
   background-repeat: no-repeat;
   background-size: 18%, 40% , 40% , 7% , 40% , 95% 95%;
   background-position: top 30%  left 22%,
@@ -622,7 +622,7 @@ a {
   align-self: flex-start;
   height: 760px;
   width: 617px;
-  background-image: url(img/src/img/section_1/BOX.png), url(img/src/img/section_1/lamp.png), url(img/src/img/section_1/cash.svg), url(img/src/img/section_1/heart.png), url(img/src/img/section_1/clock.png), url(img/src/img/section_1/constructor.png), url(img/src/img/section_1/Vector.svg), url(img/src/img/section_1/Vector1.svg), url(img/src/img/section_1/Group1.png);
+  background-image: url(img/section_1/BOX.png), url(img/section_1/lamp.png), url(img/section_1/cash.svg), url(img/section_1/heart.png), url(img/section_1/clock.png), url(img/section_1/constructor.png), url(img/section_1/Vector.svg), url(img/section_1/Vector1.svg), url(img/section_1/Group1.png);
   background-repeat: no-repeat;
   background-position: top -65px left -35px, top 25% right 55px, top 10% right 145px, top 10% right 195px, top 40% right 55px, top 80px left -20px, bottom, bottom, right 30% top 20%;
 }
@@ -649,7 +649,7 @@ a {
 #internet .internet__аdvantages .item_construct {
   width: 175px;
   height: 200px;
-  background-image: url(img/src/img/section_1/constructor1.png), url(img/src/img/section_1/background-circle.svg);
+  background-image: url(img/section_1/constructor1.png), url(img/section_1/background-circle.svg);
   background-repeat: no-repeat;
   background-position: top -15px left -25px, top 0 left 0;
   background-size: 120% 135px, 80% 80%;
@@ -657,7 +657,7 @@ a {
 #internet .internet__аdvantages .item_lamp {
   width: 175px;
   height: 200px;
-  background-image: url(img/src/img/section_1/lamp1.png), url(img/src/img/section_1/background-circle.svg);
+  background-image: url(img/section_1/lamp1.png), url(img/section_1/background-circle.svg);
   background-repeat: no-repeat;
   background-position: top 50% left 0, center;
   background-size: 100% 100%, 80% 80%;
@@ -665,7 +665,7 @@ a {
 #internet .internet__аdvantages .item_cubes {
   width: 175px;
   height: 150px;
-  background-image: url(img/src/img/section_1/cubes.png), url(img/src/img/section_1/background-circle.svg);
+  background-image: url(img/section_1/cubes.png), url(img/section_1/background-circle.svg);
   background-repeat: no-repeat;
   background-position: top 0 left 30%, left 0 top 50%;
   background-size: 70% 100%, 80% 80%;
@@ -673,7 +673,7 @@ a {
 #internet .internet__аdvantages .item_cash {
   width: 175px;
   height: 175px;
-  background-image: url(img/src/img/section_1/cash.svg), url(img/src/img/section_1/background-circle.svg);
+  background-image: url(img/section_1/cash.svg), url(img/section_1/background-circle.svg);
   background-repeat: no-repeat;
   background-position: top -20px left -10px, left 0 top 50%;
   background-size: 100% 195px, 80% 80%;
@@ -692,7 +692,7 @@ a {
   width: 100%;
   height: 900px;
   background-color: #3454F5;
-  background-image: url(img/src/img/section_2/Vector2.svg), url(img/src/img/section_2/Vector1.svg), url(img/src/img/section_2/Vector2.svg), url(img/src/img/section_2/Vector1.svg), url(img/src/img/section_2/Vector1.svg), url(img/src/img/section_2/Vector2.svg), url(img/src/img/section_2/Vector3.svg);
+  background-image: url(img/section_2/Vector2.svg), url(img/section_2/Vector1.svg), url(img/section_2/Vector2.svg), url(img/section_2/Vector1.svg), url(img/section_2/Vector1.svg), url(img/section_2/Vector2.svg), url(img/section_2/Vector3.svg);
   background-position: top 15% left 22%,
 						 top 15% left 45%,
 						 top 10% left 65%,
@@ -794,19 +794,19 @@ a {
   }
 }
 #what-we-do .tsekh {
-  background-image: url(img/src/img/section_3/tsekh.svg);
+  background-image: url(img/section_3/tsekh.svg);
   background-position: top 50% left 50%;
   background-repeat: no-repeat;
   background-size: 50% 100%;
 }
 #what-we-do .box-catalog {
-  background-image: url(img/src/img/section_3/catalog.svg);
+  background-image: url(img/section_3/catalog.svg);
   background-position: top 50% left 50%;
   background-repeat: no-repeat;
   background-size: 100% 85%;
 }
 #what-we-do .box-group {
-  background-image: url(img/src/img/section_3/google.svg), url(img/src/img/section_3/crm.svg), url(img/src/img/section_3/yandex.svg), url(img/src/img/section_3/jivosite.svg), url(img/src/img/section_3/getreps.svg), url(img/src/img/section_3/champ.svg), url(img/src/img/section_3/mega.svg), url(img/src/img/section_3/mail.svg);
+  background-image: url(img/section_3/google.svg), url(img/section_3/crm.svg), url(img/section_3/yandex.svg), url(img/section_3/jivosite.svg), url(img/section_3/getreps.svg), url(img/section_3/champ.svg), url(img/section_3/mega.svg), url(img/section_3/mail.svg);
   background-position: top -25% left 10%, top 25% left 10%, top 10% left 85%, top 55% left 10%, top 55% left 80%, top 100% left 10%, top 75% right 35%, top 110% left 80%;
   background-size: 50% 50%,
 						 40% 35%,
@@ -831,7 +831,7 @@ a {
   align-items: center;
 }
 #what-we-do .order-box__image {
-  background-image: url(img/src/img/header/hand.png), url(img/src/img/what-we-do/laptop.png);
+  background-image: url(img/header/hand.png), url(img/what-we-do/laptop.png);
   background-repeat: no-repeat;
   background-size: auto , contain;
   background-position: bottom 55% left 75%, 0 0;
@@ -931,13 +931,13 @@ a {
   margin-right: 20px;
 }
 #stack .stack-items .vue {
-  background: #fff url(img/src/img/header/vuejs.svg) center no-repeat;
+  background: #fff url(img/header/vuejs.svg) center no-repeat;
 }
 #stack .stack-items .django {
-  background: #fff url(img/src/img/header/django-logo.svg) center no-repeat;
+  background: #fff url(img/header/django-logo.svg) center no-repeat;
 }
 #stack .stack-items .elastic {
-  background: #fff url(img/src/img/header/Elasticsearch.svg) center no-repeat;
+  background: #fff url(img/header/Elasticsearch.svg) center no-repeat;
 }
 @media (max-width: 950px) {
   #stack {
@@ -1009,13 +1009,13 @@ a {
   margin-right: 17px;
 }
 #case .case__content .content__item .snow-queen {
-  background: url(img/src/img/case/1.png) 0 0 / contain no-repeat;
+  background: url(img/case/1.png) 0 0 / contain no-repeat;
 }
 #case .case__content .content__item .max {
-  background: url("img/src/img/case/Mask Group.jpg") 0 0 / contain no-repeat;
+  background: url(img/case/MaskGroup.jpg) 0 0 / contain no-repeat;
 }
 #case .case__content .content__item .mobiApp {
-  background: url("img/src/img/case/image 24.svg") 0 0 / contain no-repeat;
+  background: url(img/case/image24.svg) 0 0 / contain no-repeat;
 }
 #calculation {
   background: #3454F5;
@@ -1110,7 +1110,7 @@ a {
   height: 360px;
   margin: 0 auto;
   margin-bottom: 40px;
-  background: url(img/src/img/employers/employers.png) center / cover no-repeat;
+  background: url(img/employers/employers.png) center / cover no-repeat;
 }
 #employers .img-description {
   margin-bottom: 140px;
@@ -1133,7 +1133,7 @@ a {
   height: 110px;
   display: flex;
   align-items: center;
-  background: url(img/src/img/employers/senior.svg) 0 0 no-repeat;
+  background: url(img/employers/senior.svg) 0 0 no-repeat;
   background-size: 101px 101px;
   padding-left: 125px;
 }
@@ -1162,23 +1162,23 @@ a {
   left: 0;
   width: 80px;
   height: 80px;
-  background: #3454F5 url(img/src/img/employers/arrow-right.svg) center / contain no-repeat;
+  background: #3454F5 url(img/employers/arrow-right.svg) center / contain no-repeat;
 }
 #employers .other-services__items .book {
   position: relative;
-  background-image: url(img/src/img/employers/book.png), url(img/src/img/employers/dark.svg), url(img/src/img/employers/ligth.svg);
+  background-image: url(img/employers/book.png), url(img/employers/dark.svg), url(img/employers/ligth.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 #employers .other-services__items .monitor {
   position: relative;
-  background-image: url(img/src/img/employers/monitor.png), url(img/src/img/employers/dark.svg), url(img/src/img/employers/ligth.svg);
+  background-image: url(img/employers/monitor.png), url(img/employers/dark.svg), url(img/employers/ligth.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 #employers .other-services__items .tablet {
   position: relative;
-  background-image: url(img/src/img/employers/tablet.png), url(img/src/img/employers/dark.svg), url(img/src/img/employers/ligth.svg);
+  background-image: url(img/employers/tablet.png), url(img/employers/dark.svg), url(img/employers/ligth.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -1221,7 +1221,7 @@ footer .logo {
   margin-bottom: 53px;
   width: 135px;
   height: 43px;
-  background: url(img/src/img/footer/logo.svg) no-repeat;
+  background: url(img/footer/logo.svg) no-repeat;
 }
 footer .footer-title {
   font-weight: bold;
@@ -1265,13 +1265,13 @@ footer .footer-items .footer-item .link .be {
   margin-right: 16px;
 }
 footer .footer-items .footer-item .link .facebook {
-  background: url(img/src/img/footer/fb.svg);
+  background: url(img/footer/fb.svg);
 }
 footer .footer-items .footer-item .link .inst {
-  background: url(img/src/img/footer/insta.svg);
+  background: url(img/footer/insta.svg);
 }
 footer .footer-items .footer-item .link .be {
-  background: url(img/src/img/footer/be.svg);
+  background: url(img/footer/be.svg);
   margin-right: 0;
 }
 footer .footer-items .mail,
@@ -1279,10 +1279,10 @@ footer .footer-items .tel {
   padding-left: 30px;
 }
 footer .footer-items .mail {
-  background: url(img/src/img/footer/msg.svg) no-repeat;
+  background: url(img/footer/msg.svg) no-repeat;
 }
 footer .footer-items .tel {
-  background: url(img/src/img/footer/phone.svg) no-repeat;
+  background: url(img/footer/phone.svg) no-repeat;
 }
 @media (max-width: 975px) {
   footer .footer-items {
