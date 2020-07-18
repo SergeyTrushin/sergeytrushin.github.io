@@ -377,7 +377,8 @@ a {
 }
 @media (max-width: 700px) {
   .container {
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 #header {
@@ -572,6 +573,12 @@ a {
     margin: 0;
     text-align: center;
   }
+  #header .header__content .content__block .block__title {
+    font-size: 30px;
+  }
+  #header .header__content .content__block .block__subtitle {
+    font-size: 15px;
+  }
   #header .header__content .content__img {
     width: 500px;
     height: 500px;
@@ -683,6 +690,12 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+  }
+  #internet .internet-container .text__title {
+    font-size: 25px;
+  }
+  #internet .internet-container .text__subtitle {
+    font-size: 15px;
   }
   #internet .internet__аdvantages {
     margin-top: 0;
