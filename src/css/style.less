@@ -102,16 +102,16 @@ section{
 	.items{
 		display: flex;
 		.item{
+			position: relative;
 			width: 20%;
-			height: 250px;
 			border: 1px solid #ccc;
 			border-radius: 5px;
 			margin: 20px 15px 20px 0;
-			padding: 25px;
+			padding: 30px;
 			background-color: #eff7ff;
-			background-image:  url(../img/dark.svg), url(../img/ligth.svg);
+			background-image:  url(../img/dark.svg), url(../img/ligth.svg);	
 			background-repeat: no-repeat;
-			background-position: right bottom;
+			background-position: right bottom, right bottom;
 			background-size: 50% 50%, 70% 70%;
 
 			span{
@@ -123,6 +123,19 @@ section{
     			line-height: 16px;
     			padding: 6px;
    			    margin: 0 8px 8px 0;			
+			}
+			p{
+				text-decoration: underline;
+				font-weight: bold;
+			}
+
+			.box{
+				background: #3454f5 url(../img/arrow-right.svg) center/contain no-repeat;
+				width: 40px;
+   				height: 40px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
 			}
 
 			@media(max-width: 960px){
