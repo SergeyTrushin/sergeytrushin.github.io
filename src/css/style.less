@@ -123,27 +123,46 @@ section{
     			background: #fff;
     			text-align: center;
     			font-weight: 400;
-   			    font-size: 12px;
+   			    font-size: 14px;
     			line-height: 16px;
     			padding: 6px;
-   			    margin: 0 8px 8px 0;			
+   			    margin: 0 8px 8px 0;
+   			    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);			
 			}
 			p{
-				text-decoration: underline;
 				font-weight: bold;
 			}
 
 			.box{
 				background: #3454f5 url(../img/arrow-right.svg) center/contain no-repeat;
-				width: 40px;
-   				height: 40px;
+				width: 15px;
+   				height: 15px;
 				position: absolute;
 				left: 0;
 				bottom: 0;
+				opacity: 0.75;
 			}
 		}
 		
 	}
+}
+
+.footer {
+	padding: 10px 15px;
+	h1{
+		font-size: 20px;
+		color: #000;
+		margin-bottom: 10px;
+	}
+	div{
+		display: flex;
+		align-items: center;
+		margin-bottom: 5px;
+		svg{
+			margin-right: 15px;
+		}
+	}
+
 }
 
 @media(max-width: 414px) {
