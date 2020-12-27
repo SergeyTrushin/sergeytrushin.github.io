@@ -1,5 +1,8 @@
 @import "~reset-css/less/reset.less";
 @import "../fonts/stylesheet.css";
+@import "swiper.css";
+
+@font-face {font-family: "revicons"; src: url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.eot"); src: url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788ed57ac569667f.svg#revicons") format("svg"); }
 
 *{
 	box-sizing: border-box;
@@ -7,6 +10,7 @@
 
 html, body{
 	height: 100%;
+	background: #BAC4C1;
 }
 
 body{
@@ -27,7 +31,7 @@ a{
 
 .container{
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 0 30px 0;
 	width: 81.3%;
 	@media(max-width: 700px){
 		&{
@@ -37,13 +41,13 @@ a{
 }
 
 section{
+	background: #fff;
 	margin-top: 25px;
-	border: 0.5px solid #ccc;
+	border: 1px solid #56605E;
 	border-radius: 8px;
 }
 
 #header{
-	
 	display: flex;
 	padding: 50px;
 	.avatar{
@@ -100,13 +104,13 @@ section{
 	}
 
 	.items{
-		display: flex;
+		padding-top: 20px;
 		.item{
+			display: block;
+			height: 275px;
 			position: relative;
-			width: 20%;
 			border: 1px solid #ccc;
 			border-radius: 5px;
-			margin: 20px 15px 20px 0;
 			padding: 30px;
 			background-color: #eff7ff;
 			background-image:  url(../img/dark.svg), url(../img/ligth.svg);	
@@ -137,24 +141,13 @@ section{
 				left: 0;
 				bottom: 0;
 			}
-
-			@media(max-width: 960px){
-				&{
-					width: 60%;
-
-				}
-			}
 		}
 		
-		@media(max-width: 960px){
-				&{
-					display: flex;
-					align-items: center;
-					flex-direction: column;
-					justify-content: center;
-					
-				}
+	}
+}
 
-		}
+@media(max-width: 414px) {
+	.item{
+		padding: 10px 5px!important;
 	}
 }
