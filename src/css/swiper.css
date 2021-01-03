@@ -17,3 +17,7 @@
 .swiper-pagination-bullet{border:solid 1px #19addd;width:12px;height:12px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin:0 2px;cursor:pointer;}
 .swiper-pagination-bullet.swiper-pagination-bullet-active{border-color:#023f5d;background:#023f5d;}
 .swiper-pagination-bullets.swiper-pagination-lock{display:none}
+
+@media(max-width:1024px){
+  .git-link{display:inline-block;bottom:10px;top:auto;font-size:10px}
+}
