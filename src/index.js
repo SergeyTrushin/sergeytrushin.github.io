@@ -9,8 +9,7 @@ const ageOnPage = document.querySelector("#age")
 
 //Дата рождения
 
-let dob = new Date(1995, 12, 17);
-
+let dob = new Date(1995, 12 - 1, 17);
 let now = new Date(); //Текущя дата
 let today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); 
 let dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate()); 
@@ -19,6 +18,8 @@ let age = today.getFullYear() - dob.getFullYear();
 if (today < dobnow) {
 	age = age-1;
 }
+
+console.log(age);
 
 ageOnPage.innerHTML = age;
 
