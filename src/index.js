@@ -19,8 +19,6 @@ if (today < dobnow) {
 	age = age-1;
 }
 
-console.log(age);
-
 ageOnPage.innerHTML = age;
 
 const swiper = new Swiper('.swiper-container', {
