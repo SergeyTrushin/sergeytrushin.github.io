@@ -1,3 +1,4 @@
+import autoprefixer from "autoprefixer";
 import "./css/style.less";
 
 
@@ -55,10 +56,34 @@ const swiper = new Swiper('.swiper-container', {
   		spaceBetween: 40,
       slidesPerGroup: 1,
   	},
-    0: {
+    375: {
   		slidesPerView: 2,
-  		spaceBetween: 5,
+  		spaceBetween: 10,
       slidesPerGroup: 1,
-  	},
+    },
+    0: {
+      slidesPerView: 1,
+  		spaceBetween: 10,
+      slidesPerGroup: 1,
+    }
+  },
+})
+
+const skillsWrapper = document.querySelector('.skills .swiper-wrapper');
+
+const swiperSkills = new Swiper('.skills', {
+  wrapperClass: 'swiper-wrapper',
+  slideClass: 'swiper-slide',
+  loop: false,
+  speed: 600,
+  slidesPerView: 'auto',
+  observer: true,
+  observeParents: true,
+  parallax:true,
+  watchOverflow: true,
+  pagination: {
+    el: '.skills .slider-dots',
+    type: 'bullets',
+    clickable: true
   },
 })

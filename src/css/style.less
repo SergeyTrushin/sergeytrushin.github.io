@@ -7,28 +7,20 @@
 *{
 	box-sizing: border-box;
 }
-
 html, body{
 	height: 100%;
-	background: #BAC4C1;
 }
-
 body{
 	font-family: "Gilroy";
 	color: #333333;
 }
-
 a{
 	text-decoration: none;
 	color: inherit;
 }
-
-
 .bold{
 	font-weight: bold;
 }
-
-
 .container{
 	margin: 0 auto;
 	padding: 0 0 30px 0;
@@ -49,13 +41,15 @@ section{
 
 #header{
 	display: flex;
-	padding: 50px;
+  padding: 50px;
+  background: linear-gradient(45deg, rgba(238,207,186,.2), rgba(197,221,232,.2));
 	.avatar{
 		width: 150px;
 		height: 200px;
 		margin-right: 50px;
 	}
 	.info{
+		overflow: hidden;
 		padding: 25px 0 0 0;
 		.name{
 			margin-bottom: 15px;
@@ -83,26 +77,41 @@ section{
 					}
 				}
 			}
+			.github-link{
+				margin-top:25px;
+				a{
+					color:blue;
+					display: block;
+					margin-top: 5px;
+				}
+			}
 		}
 	}
-
 	@media(max-width: 960px){
 		&{
 			flex-wrap: wrap;
-			justify-content: center;
+      justify-content: center;
+      
 		}
-	}
-
+  }
+  @media(max-width: 768px){
+    &{
+      padding:15px 20px;
+      .avatar{
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 #portfolio{
+  background: linear-gradient(45deg, rgba(238,207,186,0.2), rgba(197,221,232,0.2));
 	padding: 25px;
 	h1{
 		font-size: 20px;
 		font-weight: bold;
 		text-align: center;
 	}
-
 	.items{
 		padding-top: 20px;
 		.item{
@@ -117,7 +126,6 @@ section{
 			background-repeat: no-repeat;
 			background-position: right bottom, right bottom;
 			background-size: 50% 50%, 70% 70%;
-
 			span{
 				display: inline-block;
     			background: #fff;
@@ -132,22 +140,36 @@ section{
 			p{
 				font-weight: bold;
 			}
-
 			.box{
 				background: #3454f5 url(../img/arrow-right.svg) center/contain no-repeat;
 				width: 15px;
-   				height: 15px;
+   			height: 15px;
 				position: absolute;
 				left: 0;
 				bottom: 0;
 				opacity: 0.75;
 			}
 		}
-		
-	}
+  }
+  @media(max-width:414px){
+    &{
+      padding:15px 0;
+      .items{
+        padding:20px 10px 0 10px;
+      }
+    }
+  }
+  @media(max-width:375px){
+    &{
+      span{
+        font-size: 10px!important;
+      }
+    }
+  }
 }
 
 .footer {
+  background: linear-gradient(45deg, rgba(238,207,186,.2), rgba(197,221,232,.2));
 	padding: 10px 15px;
 	h1{
 		font-size: 20px;
@@ -161,10 +183,18 @@ section{
 		svg{
 			margin-right: 15px;
 		}
-	}
-
+  }
+  #phone{
+    svg{
+      fill: green;
+    }
+  }
+  #skype{
+    svg{
+      fill: #00a5e2;
+    }
+  }
 }
-
 @media(max-width: 414px) {
 	.item{
 		padding: 10px 5px!important;

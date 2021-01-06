@@ -4,7 +4,7 @@
 .swiper-slide:hover .git-link{display: inline-block;}
 .item{padding:0 5px;text-align:center;position:relative}
 .item:hover{box-shadow: 0 2px 15px rgba(0,0,0,.15)}
-.git-link{cursor:pointer;position:absolute;top:3px;right:10px;display:none;z-index:10;border-radius: 5px;background-color: #fff;padding: 5px;}
+.git-link{cursor:pointer;position:absolute;top:6px;right:10px;display:none;z-index:10;border-radius: 5px;background-color: #fff;padding: 5px;}
 .arrows{border:none;outline:none;position: absolute;top: calc(50% - 20px);cursor: pointer;background: rgba(0,0,0,1);width: 40px;height: 40px;z-index: 100;border-radius: 50%;color:#fff;display: flex;justify-content: center;align-items: center;}
 .swiper-prev{left:0}
 .swiper-next{right:0}
@@ -18,6 +18,17 @@
 .swiper-pagination-bullet.swiper-pagination-bullet-active{border-color:#023f5d;background:#023f5d;}
 .swiper-pagination-bullets.swiper-pagination-lock{display:none}
 
+.skills .swiper-slide{width:auto}
+.skills.items{padding:10px 5px}
+.skills .item{display: block}
+.skills .item:hover{box-shadow:none}
+.skills .slider-dots{width:100%;margin-top: 15px}
+.skills .swiper-prev{left:-10px}
+.skills .swiper-next{right:-10px}
+
 @media(max-width:1024px){
   .git-link{display:inline-block;bottom:10px;top:auto;font-size:10px}
+}
+@media(max-width:414px){
+  .arrows{display:none}
 }
